@@ -87,7 +87,7 @@ nav {
 }
 
 ul {
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
 	background: #999;
 	list-style-type: none;
@@ -118,3 +118,18 @@ a:hover {
 
 /* ------------------------------Main Content ----------------------------- */
 
+#cars {
+	width: 100%;
+	background-color: #aecff6;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#cars h2 {
+	color: #050593;
+}
+
+#cars img {
+	border: solid 2px #0000ff;
+}
