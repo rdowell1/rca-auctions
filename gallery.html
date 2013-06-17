@@ -2,37 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>RCA Auctions</title>
 	<link rel="stylesheet" href="css/main.css">
 	<style type="text/css">
 	</style>
 </head>
 	<body>
-		<div class="header">
-			<div class="logo">
-				<img src="images/rca-auctions-logo2.jpg" width="280" height="300" alt="RCA Auctions logo">
-			</div> <!-- end of div logo -->
+		<div id="wrapper">
+			<div id="header">
+				<div class="logo">
+					<div id="logo_container">
+						<img src="images/rca-auctions-logo2.jpg" alt="RCA Auctions logo">
+					</div> <!-- end of logo_container div -->
+				</div> <!-- end of div logo -->
 			
-			<div class="event">
-				<div id="title">
-					<h2>RCA Auctions Annual Classic Car Auction</h2>
-					<p>July 4, 2013
-						Phoenix Fairgrounds</p>
-				</div> <!-- end of title div -->
+				<div class="event">
+					<div id="event-container">
+						<div id="title">
+							<h2>RCA Auctions Annual Classic Car Auction</h2>
+							<p>July 4, 2013
+								Phoenix Fairgrounds</p>
+						</div> <!-- end of title div -->
 			
-				<div id="register">
-					<div id="sellers">						
-						<h3>Sellers Register Here</h3>
-						<a class="rmc-btn rmc-signup" href="#" title="Sign up inspiring title">Sellers Registration</a>
-					</div> <!-- end of seller div -->
-					<div id="buyers">
-						<h3>Buyers Register Here</h3>
-						<a class="rmc-btn rmc-signup" href="#" title="Sign up inspiring title">Buyers Registration</a>
-					</div> <!-- end of buyers div -->
-				</div> <!-- end of register div -->
-			</div> <!-- end of event div -->
-		</div> <!-- end of div class header -->
-		
+						<div id="register">
+							<div id="sellers">						
+								<h3>Sellers Register Here</h3>
+									<a class="rmc-btn rmc-signup" href="#" title="Sign up inspiring title">Register Now</a>
+							</div> <!-- end of seller div -->
+							<div id="buyers">
+								<h3>Buyers Register Here</h3>
+									<a class="rmc-btn rmc-signup" href="#" title="Sign up inspiring title">Register Now</a>
+							</div> <!-- end of buyers div -->
+						</div> <!-- end of register div -->
+					</div> <!-- end of event_container div -->
+				</div> <!-- end of event div -->
+			</div> <!-- end of div class header -->
+		</div>
+		</div>
 		<div id="content">
 					<nav>
 						<ul>
@@ -42,29 +49,48 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
-			
 		
 		<h2>Here are some photos of some of the cars up for auction this year...</h2>
 		
-		<img src="images/1957-chevy-bel-air.jpg" width="210" height="180" alt="1957 Chevy
-			Bel Air">
-		<img src="images/1963-chevy-corvette.jpg" width="210" height="180" alt="1963
-			Chevy Corvette">
-		<img src="images/1965-Pontiac-GTO.jpg" width="210" height="180" alt="1965
-			Pontiac GTO">
-		<img src="images/1967-pontiac-gto.jpg" width="210" height="180" alt="1967
-			Pontiac GTO">
-		<img src="images/1967-Shelby-GT500.jpg" width="210" height="180" alt="1967
-			Shelby GT500">
-		<img src="images/1968-Camaro-SS.jpg" width="210" height="180" alt="1968 Camaro SS">
-		<img src="images/1968-Corvette.jpg" width="210" height="180" alt="1968
-			Corvette">
-		<img src="images/1970-Chevelle-SS.jpg" width="210" height="180" alt="1970
-			Chevelle SS">
-		<img src="images/1971-Pontiac-Trans-Am.jpg" width="210" height="180"
-			alt="1971 Pontiac Trans Am">
-		<img src="images/1979-trans-am.jpg" width="210" height="180" alt="1979
-			Trans Am">
+			<div id="columns">
+				<p><img src="images/1957-chevy-bel-air.jpg" width="210" height="180" alt="1957 Chevy
+							Bel Air">
+					<img src="images/1963-chevy-corvette.jpg" width="210" height="180" alt="1963
+							Chevy Corvette">
+					<img src="images/1965-Pontiac-GTO.jpg" width="210" height="180" alt="1965
+							Pontiac GTO">
+					<img src="images/1967-pontiac-gto.jpg" width="210" height="180" alt="1967
+							Pontiac GTO"></p>
+				
+				<p><img src="images/1967-Shelby-GT500.jpg" width="210" height="180" alt="1967
+							Shelby GT500">
+					<img src="images/1968-Camaro-SS.jpg" width="210" height="180" alt="1968 Camaro SS">
+					<img src="images/1968-Corvette.jpg" width="210" height="180" alt="1968
+							Corvette">
+					<img src="images/1970-Chevelle-SS.jpg" width="210" height="180" alt="1970
+							Chevelle SS"></p>
+							
+				<p><img src="images/1971-Pontiac-Trans-Am.jpg" width="210" height="180"
+							alt="1971 Pontiac Trans Am">
+					<img src="images/1979-trans-am.jpg" width="210" height="180" alt="1979
+							Trans Am">
+					<img src="images/pink-rod.jpg" width="210" height="180" alt="Pink T Bucket">
+					<img src="images/1965-Chevy-El-Camino.jpg" width="210" height="180" alt="1965
+							Chevy El Camino"></p>
+							
+				<p><img src="images/1966-Chevy-Malibu.jpg" width="210" height="180" alt="1966 Chevy-Malibu">
+					<img src="images/1966-Chevy-Impala.jpg" width="210" height="180" alt="1966 Chevy Malibu">
+					<img src="images/1970-Plymouth-Cuda.jpg" width="210" height="180" alt="1970
+							Plymouth Cuda"></p>
+			</div>
 		
+		<div id="footer">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="registration.html">Registration</a></li>
+				<li><a href="gallery.html">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
 	</body>
 </html>
