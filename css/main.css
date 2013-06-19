@@ -47,7 +47,7 @@ body {
 	width: 60%;
 	padding: 0;
 	float: right;
-	background-color: #d7d7d7;
+	background-color: #959595;
 }
 
 #title {
@@ -159,7 +159,7 @@ a:hover {
 	padding-left: 2.60416%;
 	background-color: #d7d7d7;
 	line-height: 2em;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #fun {
@@ -176,7 +176,7 @@ a:hover {
 #fun p {
 	text-decoration: none;
 	font-weight: normal;
-	font-size: 0.875em;	
+	font-size: 1.5em;	
 }
 
 a.rmc-signup {
@@ -236,40 +236,55 @@ a.rmc-signup {
 
 /* Tablet Portrait Size to Standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 959px) {
-	#event {
+	#wrapper {
 		background-color: #898989;
 	}
 	#sponsor {
 		font-size: 1.5em;
 	}
 	#main {
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+	#fun p {
+		font-size: 1.2em;
 	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	#event {
-		background-color: #7df741;
+	#wrapper { background-color: #7df741;
 	}
+	
 	#carlist {
 		height: auto;
 		width: 100%;
 	}
+	
 	#form {
 		clear: both;
 		width: 100%;
 	}
-	#sponsor #main {
-		font-size: 0.8em;
+	
+	#sponsor { font-size: 1em;
+	}
+	
+	#main { font-size: 1em;
+	}
+	
+	#fun p { font-size: 1em;
+	}
+	
+	#title_container {
+		font-size: 1em;
 	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	#event {
+	#wrapper {
 		background-color: #f76741;
 	}
+	
 	#logo_container {
 		display: none;
 	}
@@ -285,7 +300,21 @@ a.rmc-signup {
 		clear: both;
 		width: 100%;
 	}
-	#sponsor #main {
-		font-size: 0.6em;
+	#sponsor {
+		font-size: 0.8em;
+	}
+	#main {
+		font-size: 0.8em;
+	}
+	#fun p {
+		font-size: 0.8em;
+	}
+	
+	#title_container {
+		font-size: 0.8em;
+	}
+	
+	.event {
+		width: 100%;
 	}
 }
